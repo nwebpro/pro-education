@@ -56,7 +56,8 @@
                             <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn border-1 border-info text-info" href="#">Register</a>
+                            <a class="btn border-1 border-info text-info" href="#" data-bs-toggle="modal"
+                                data-bs-target="#registerModal">Register</a>
                         </li>
                     </ul>
                 </div>
@@ -136,7 +137,8 @@
                             </div>
                             <div class="course-details p-3">
                                 <h3 class="fs-5 text-dark">Fundamental Of UI/UX Design</h3>
-                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk
+                                    of the card.</p>
                                 <h4 class="fs-6 text-info">Price : 20$</h4>
                             </div>
                         </div>
@@ -149,7 +151,8 @@
                             </div>
                             <div class="course-details p-3">
                                 <h3 class="fs-5 text-dark">Javascript Basic to advanced</h3>
-                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk
+                                    of the card.</p>
                                 <h4 class="fs-6 text-info">Price : 20$</h4>
                             </div>
                         </div>
@@ -162,7 +165,8 @@
                             </div>
                             <div class="course-details p-3">
                                 <h3 class="fs-5 text-dark">Fullstack Web Development</h3>
-                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk
+                                    of the card.</p>
                                 <h4 class="fs-6 text-info">Price : 20$</h4>
                             </div>
                         </div>
@@ -175,7 +179,8 @@
                             </div>
                             <div class="course-details p-3">
                                 <h3 class="fs-5 text-dark">Digital Marketing</h3>
-                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk
+                                    of the card.</p>
                                 <h4 class="fs-6 text-info">Price : 20$</h4>
                             </div>
                         </div>
@@ -188,7 +193,8 @@
                             </div>
                             <div class="course-details p-3">
                                 <h3 class="fs-5 text-dark">Photography Basic Rules</h3>
-                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk
+                                    of the card.</p>
                                 <h4 class="fs-6 text-info">Price : 20$</h4>
                             </div>
                         </div>
@@ -201,7 +207,8 @@
                             </div>
                             <div class="course-details p-3">
                                 <h3 class="fs-5 text-dark">Motion Graphics</h3>
-                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                                <p class="lh-sm">Some quick example text to build on the card title and make up the bulk
+                                    of the card.</p>
                                 <h4 class="fs-6 text-info">Price : 20$</h4>
                             </div>
                         </div>
@@ -225,7 +232,11 @@
                     <div class="col-12 col-sm-12 col-md-7 col-lg-7">
                         <div class="explore-desc px-lg-5 mt-4 mt-md-0">
                             <h2 class="fs-1 fw-semibold text-dark">Explore The elearning Institute</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure. <br><br> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+                                need to be sure. <br><br> Anything embarrassing hidden in the middle of text. All the
+                                Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
                             <div class="d-flex gap-5 flex-wrap">
                                 <div>
                                     <h2 class="fs-1 fw-semibold text-dark">3.2K+</h2>
@@ -245,6 +256,55 @@
                     </div>
                 </div>
 
+            </div>
+        </section>
+        <!-- Ready to Join Section -->
+        <section class="my-5">
+            <div class="container bg-info p-3 p-md-5 rounded">
+                <div class="row align-items-center py-4 py-md-0">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="text-center text-lg-start text-white">
+                            <h2 class="fs-1 fw-semibold">Ready to join?</h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="text-center text-lg-end">
+                            <a href="#" class="btn bg-white fw-bold fs-6 text-info py-2 px-3" data-bs-toggle="modal"
+                                data-bs-target="#registerModal">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="registerModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="fs-3 text-dark fw-semibold">Login Form</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-info fw-bold fs-6 text-white py-2 px-3">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
