@@ -13,6 +13,12 @@ body{
     line-height: 30px;
     color: #777777;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
 /* Header */
 .logo{
     color: #4A4A4A;
