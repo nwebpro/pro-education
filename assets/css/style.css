@@ -13,12 +13,6 @@ body{
     line-height: 30px;
     color: #777777;
 }
-a{
-    text-decoration: none;
-}
-li{
-    list-style-type: none;
-}
 /* Header */
 .logo{
     color: #4A4A4A;
@@ -29,4 +23,13 @@ li{
 .fa-star{
     font-size: 16px;
     color: #FFC806;
+}
+@media only screen and (max-width: 767px){
+    #carouselExampleCaptions .carousel-item img{
+        height: 50vh;
+        object-fit: cover;
+    }
+    .pe-caption-style{
+        top: 10%;
+    }
 }
